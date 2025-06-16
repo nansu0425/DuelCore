@@ -1,7 +1,7 @@
 # 🎮 DuelCore: Real-time 1v1 PvP Game Server Portfolio
 > 🚀 Game Title: **ONEvONE**  
 > 🛠️ Tech Stack: C++ 서버 + Unity 클라이언트  
-> 🎯 목적: Unity 클라이언트와 통신 하는 C++ 게임 서버 개발 학습
+> 🎯 목적: Unity 클라이언트와 통신하는 C++ 게임 서버 개발 학습
 
 ---
 
