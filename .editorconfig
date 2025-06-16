@@ -1,0 +1,44 @@
+root = true
+
+# 기본 설정
+[*]
+charset = utf-8-bom         # 한국어 주석 대응
+end_of_line = crlf          # Windows CRLF 줄바꿈
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# C++ 소스/헤더 파일
+[*.{cpp,h,hpp,cxx}]
+indent_style = space
+indent_size = 4
+tab_width = 4
+max_line_length = 120
+curly_brace_next_line = true
+cpp_variant = c++17
+
+# Unity C# 코드
+[*.cs]
+indent_style = space
+indent_size = 4
+tab_width = 4
+charset = utf-8-bom
+dotnet_sort_system_directives_first = true
+csharp_style_var_elsewhere = true
+csharp_style_var_for_built_in_types = true
+csharp_style_var_when_type_is_apparent = true
+csharp_prefer_braces = true
+csharp_indent_case_contents = true
+
+# FlatBuffers, JSON 파일 등
+[*.{fbs,json}]
+indent_style = space
+indent_size = 2
+end_of_line = lf
+charset = utf-8
+
+# Visual Studio 프로젝트 파일 (자동 포맷 방지)
+[*.{vcxproj,filters}]
+indent_style = space
+indent_size = 2
+end_of_line = crlf
+charset = utf-8

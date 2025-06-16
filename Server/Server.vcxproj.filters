@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Core">
+      <UniqueIdentifier>{1baa47a1-d57b-46e2-8db7-d630532c174f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Session">
+      <UniqueIdentifier>{9787fdca-6a99-489d-8bb9-2b18bbabc5af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Room">
+      <UniqueIdentifier>{1d384120-3456-441e-a35d-4abc27e9205d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{8e21378a-e6bc-4381-947e-1a6be1727ff5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DB">
+      <UniqueIdentifier>{fad19a9a-ad2a-4ac1-8a69-5d9241231267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Redis">
+      <UniqueIdentifier>{7d85b02c-29f8-4c10-89ab-761d75844e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Auth">
+      <UniqueIdentifier>{9a4033ea-2154-4b3d-8fa0-8fcbdddb5569}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlatBuffers">
+      <UniqueIdentifier>{cb651b52-e898-479f-b9cd-a3f050c6246b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+</Project>
